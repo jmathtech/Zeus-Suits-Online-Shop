@@ -17,14 +17,18 @@
   .text-center {
     color: var(--white);
     position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
   }
 
 
   @media screen and (min-width: 460px) and (max-width: 1024px) {
 
     .text-center {
-        color: var(--white);
-        position: relative;
+      color: var(--white);
+      
       }
   }
 
