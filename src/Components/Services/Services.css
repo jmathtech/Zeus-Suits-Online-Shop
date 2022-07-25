@@ -1,0 +1,30 @@
+.bottomfeed {
+    background-image: linear-gradient(
+        70deg,
+        rgba(20, 20, 20, 0.733),
+        rgba(76, 152, 187, 0.637)
+      ),
+      url("../../img/bottombanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: var(--mainOpacity);
+    height: 50em !important;
+    display: flex;
+  }
+
+  .text-center {
+    color: var(--white);
+    position: relative;
+  }
+
+
+  @media screen and (min-width: 460px) and (max-width: 1024px) {
+
+    .text-center {
+        color: var(--white);
+        position: relative;
+      }
+  }
+

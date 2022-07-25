@@ -1,0 +1,24 @@
+.card {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 6vh;
+}
+
+.card-image {
+  background-image: linear-gradient(
+    70deg,
+    rgba(67, 67, 185, 0.747),
+    rgba(27, 26, 26, 0.589)
+  );
+
+  opacity: var(--mainOpacity);
+  display: flex;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .card {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 6vh;
+  }
+}

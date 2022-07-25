@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 6.5rem 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: auto;
+  height: 10vh;
+  color: var(--white);
+}
+
+.f-icons {
+  position: relative;
+  display: flex;
+}
+
+.left {
+  left: 50%;
+  margin: 23vh;
+}
+
+span .centered {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 20vh;
+}
+
+@media screen and (min-width: 240px) and (max-width: 1080px) {
+  .footer {
+    height: 15vh;
+    margin-bottom: 0;
+  }
+
+  .f-icons {
+    position: relative;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+  }
+}

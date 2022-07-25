@@ -3,19 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iconscout/react-unicons": "^1.1.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "babel-cli": "6",
+    "babel-preset-react-app": "3",
+    "hamburger-react": "^2.5.0",
+    "material-ui": "^0.20.2",
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "5.2.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "react-scroll-parallax": "^3.2.0",
+    "react-sidenav": "^4.0.6",
+    "rsuite": "^5.16.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "name": "Zeus Suits Ecommerce",
+    "homepage": ".",
+    "version": "0.1.0"
   },
   "eslintConfig": {
     "extends": [
