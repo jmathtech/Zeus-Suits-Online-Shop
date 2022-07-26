@@ -1,12 +1,12 @@
 :root {
   --yellow: #f5c32c;
   --lime: #e0f5b9fa;
+  --bluegrey: rgb(60, 88, 145);
   --red: #ff3300;
   --black: #242d49;
   --gray: #788097;
   --white: #ffffff;
   --blueCard: #ddf8fe;
-  --purple: rgba(255, 108, 108, 0.404);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --redCard: rgba(255, 66, 66, 0.534);

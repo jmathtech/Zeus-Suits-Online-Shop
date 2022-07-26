@@ -6,9 +6,11 @@ const NewArrivals = () => {
     <div class="midtier">
         <div class="container">
           <h1 class="text-center">NEW ARRIVAL ACCESSORIES</h1>
-          {/* Finish this part */}
+          <div class="box-header">
 
-        
+
+          </div>
+
         </div>
       </div>
   )

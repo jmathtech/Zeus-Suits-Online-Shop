@@ -8,7 +8,7 @@ class Navbar extends Component {
     return (
       <>
         <nav>
-          <div className="nav-wrapper blue-grey darken-4">
+          <div className="nav-wrapper blue-grey darken-1">
             <Link to="#" data-target="sidebar" class="sidenav-trigger">
               <Hamburger direction="right" size={21} />
             </Link>

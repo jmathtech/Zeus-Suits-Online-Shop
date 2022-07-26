@@ -6,6 +6,9 @@ const Services = () => {
     <div class="bottomfeed">
       <div class="container">
         <h1 class="text-center">CUSTOM TAILOR SERVICE</h1>
+        <div class="box-bottomfeed">
+
+        </div>
       </div>
     </div>
   );

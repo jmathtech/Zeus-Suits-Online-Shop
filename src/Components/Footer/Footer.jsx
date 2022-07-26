@@ -6,7 +6,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <footer class="page-footer blue-grey darken-4">
+      <footer class="page-footer blue-grey darken-1">
 
           <div class="container">
             <div class="row">
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="footer-copyright blue-grey darken-3">
+          <div class="footer-copyright blue-grey darken-2">
             <div class="container">
             Copyright &copy; 2022 ZEUS Men's Clothing, Corp. All Rights Reserved.
             <a class="grey-text text-lighten-4 right" href="#!">Legal</a>
