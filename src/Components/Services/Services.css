@@ -1,7 +1,7 @@
 .box-bottomfeed {
-  opacity: 0.7;
+  opacity: 0.4;
   filter: alpha(opacity=50);
-  background-color: var(--black);
+  background-color: var(--white);
   background-attachment: fixed;
   display: flex;
   height: 35rem !important;
@@ -35,12 +35,13 @@
 @media screen and (min-width: 460px) and (max-width: 1024px) {
   .text-center {
     color: var(--white);
+    padding-top: 10px;
   }
 
   .box-bottomfeed {
     opacity: 0.7;
     filter: alpha(opacity=50);
-    background-color: var(--black);
+    background-color: var(--white);
     background-attachment: fixed;
     display: flex;
     height: 35rem !important;
