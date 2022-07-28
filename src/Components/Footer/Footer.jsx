@@ -22,7 +22,7 @@ const Footer = () => {
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Directions</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Map Directions</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Company Info</a></li>
                 </ul>
               </div>
@@ -32,7 +32,7 @@ const Footer = () => {
           <div class="footer-copyright blue-grey darken-2">
             <div class="container">
             Copyright &copy; 2022 ZEUS Men's Clothing, Corp. All Rights Reserved.
-            <a class="grey-text text-lighten-4 right" href="#!">Legal</a>
+            <a class="grey-text text-lighten-4 right" href="#!">Legal Notice</a>
             </div>
           </div>
 

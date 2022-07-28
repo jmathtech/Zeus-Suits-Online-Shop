@@ -8,9 +8,7 @@ const NewArrivals = () => {
           <h1 class="text-center">NEW ARRIVAL ACCESSORIES</h1>
           <div class="box-header">
 
-
           </div>
-
         </div>
       </div>
   )

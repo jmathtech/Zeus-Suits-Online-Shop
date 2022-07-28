@@ -4,7 +4,7 @@
   background-color: var(--white);
   background-attachment: fixed;
   display: flex;
-  height: 35rem !important;
+  height: 30rem !important;
 }
 
 .bottomfeed {
@@ -30,16 +30,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
+  margin-top: 5vh;
 }
 
-@media screen and (min-width: 460px) and (max-width: 1024px) {
+@media screen and (min-width: 480px) and (max-width: 1024px) {
   .text-center {
     color: var(--white);
     padding-top: 10px;
   }
 
   .box-bottomfeed {
-    opacity: 0.7;
+    opacity: 0.4;
     filter: alpha(opacity=50);
     background-color: var(--white);
     background-attachment: fixed;

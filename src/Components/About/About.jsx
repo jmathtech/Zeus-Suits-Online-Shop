@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div class="container">
     <div class="about-container">
-      <h1>ABOUT ZEUS</h1>
+      <h1 class="title-about">ABOUT ZEUS</h1>
       ZEUS® isn't simply one more menswear retailer. What makes us one of a
       kind likewise has drawn in clients to our stores starting around 1910:
       a legacy of value workmanship, a broad determination of wonderfully
