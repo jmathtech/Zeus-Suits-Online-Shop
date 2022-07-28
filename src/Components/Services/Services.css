@@ -1,10 +1,17 @@
 .box-bottomfeed {
-  opacity: 0.4;
+  opacity: 0.8;
   filter: alpha(opacity=50);
   background-color: var(--white);
   background-attachment: fixed;
   display: flex;
   height: 30rem !important;
+  margin-bottom: 40vh;
+}
+
+.box-content {
+  margin: 50px;
+
+
 }
 
 .bottomfeed {
@@ -19,7 +26,7 @@
   background-size: cover;
   background-attachment: fixed;
   opacity: var(--mainOpacity);
-  height: 60em !important;
+  height: 50em !important;
   display: flex;
 }
 
@@ -30,20 +37,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
-  margin-top: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 7vh;
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
+  .bottomfeed {
+    display: flex;
+  }
+  
   .text-center {
     color: var(--white);
-    padding-top: 10px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
+    margin-top: 3vh;
+    margin-bottom: 7vh;
   }
 
   .box-bottomfeed {
     opacity: 0.4;
     filter: alpha(opacity=50);
-    background-color: var(--white);
-    background-attachment: fixed;
     display: flex;
     height: 35rem !important;
   }
