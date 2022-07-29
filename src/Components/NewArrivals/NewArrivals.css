@@ -35,32 +35,8 @@
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .midtier {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: var(--mainOpacity);
-    height: 50em !important;
     display: flex;
 
   }
 
-  .text-center {
-    color: var(--white);
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
-    
-  }
-
-  .box-header {
-    opacity: 0.4;
-    filter: alpha(opacity=50);
-    background-color: var(--white);
-    background-attachment: fixed;
-    display: flex;
-    height: 35rem !important;
-  }
 }

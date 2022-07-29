@@ -27,7 +27,7 @@ body {
   height: auto;
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 240px) {
   body {
     padding: 0;
     margin: 0;
