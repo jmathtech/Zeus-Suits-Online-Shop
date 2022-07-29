@@ -5,6 +5,7 @@
   background-attachment: fixed;
   display: flex;
   height: 35rem !important;
+  
 }
 
 .midtier {
@@ -19,7 +20,7 @@
   background-size: cover;
   background-attachment: fixed;
   opacity: var(--mainOpacity);
-  height: 50em !important;
+  height: 60em !important;
   display: flex;
 }
 
