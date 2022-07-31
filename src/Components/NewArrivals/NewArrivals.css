@@ -9,33 +9,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity: var(--mainOpacity);
-  height: 90em !important;
-  display: flex;
-  position: relative;
-
+  height: auto !important;
+  
 }
 
 .text-center {
   color: var(--white);
-  position: relative;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
+  display: flex;
   
 }
 
-@media screen and (min-width: 240px) and (max-width: 1024px) {
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
 
   .midtier {
     display: flex;
-    height: 265em !important;
+    height: auto !important;
   
   }
 
   .text-center {
     display: flex;
-    top: 20px;
-  
-  }
-  
+
+  }  
 
 }

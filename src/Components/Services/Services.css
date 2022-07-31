@@ -4,8 +4,8 @@
   background-color: var(--white);
   background-attachment: fixed;
   display: flex;
-  height: 30rem !important;
-  margin-bottom: 40vh;
+  height: auto !important;
+   
 }
 
 .box-content {
@@ -24,24 +24,24 @@
   background-size: cover;
   background-attachment: fixed;
   opacity: var(--mainOpacity);
-  height: 60em !important;
+  height: auto;
   display: flex;
 }
 
 .text-center {
   color: var(--white);
   position: relative;
-  top: 10%;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
-  margin-bottom: 10vh;
   
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .bottomfeed {
     display: flex;
+    height: auto;
   }
 
 

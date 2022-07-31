@@ -1,6 +1,6 @@
 .about-container {
-    margin-top: 7vh;
-    margin-bottom: 7vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 
 h1.title-about {
@@ -8,6 +8,6 @@ h1.title-about {
   position: relative;
   top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
 }
