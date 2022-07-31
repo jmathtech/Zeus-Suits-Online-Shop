@@ -24,13 +24,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 01<i class="material-icons right">more_vert</i>
+                      Suit #01<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $6799.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 01<i class="material-icons right">close</i>
+                      Suit #01<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -48,13 +48,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 02<i class="material-icons right">more_vert</i>
+                      Suit #02<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $8999.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 02<i class="material-icons right">close</i>
+                      Suit #02<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -72,13 +72,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 03<i class="material-icons right">more_vert</i>
+                      Suit #03<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $9999.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 03<i class="material-icons right">close</i>
+                      Suit #03<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -96,13 +96,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 04<i class="material-icons right">more_vert</i>
+                      Suit #04<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $5999.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 04<i class="material-icons right">close</i>
+                      Suit #04<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -120,13 +120,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 05<i class="material-icons right">more_vert</i>
+                      Suit #05<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $7499.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 05<i class="material-icons right">close</i>
+                      Suit #05<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -144,13 +144,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 06<i class="material-icons right">more_vert</i>
+                      Suit #06<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $9999.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 06<i class="material-icons right">close</i>
+                      Suit #06<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -168,13 +168,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 07<i class="material-icons right">more_vert</i>
+                      Suit #07<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $4999.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 07<i class="material-icons right">close</i>
+                      Suit #07<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
@@ -192,13 +192,13 @@ export default function NewArrivals() {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Suit 08<i class="material-icons right">more_vert</i>
+                      Suit #08<i class="material-icons right">more_vert</i>
                     </span>
                     <p>Price: $6499.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Suit 08<i class="material-icons right">close</i>
+                      Suit #08<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is

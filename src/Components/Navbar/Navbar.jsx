@@ -14,7 +14,7 @@ class Navbar extends Component {
             </Link>
 
             <a href="#!" class="brand-logo white-text text-darken-4">
-              <i class="large material-icons">flash_on</i> ZEUS
+              <i class="large material-icons">flash_on</i> ZEUS<small>&trade;</small>	
             </a>
 
             <ul class="right hide-on-med-and-down">

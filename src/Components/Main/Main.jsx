@@ -6,8 +6,9 @@ const Main = () => {
     <>
       <div class="header">
         <div class="centered">
-          <h1>ZEUS SUITS</h1>
-          <h3> Men's Suits, Ties, Accessories & Shoes </h3>
+          <h1>ZEUS<small>&trade;</small></h1>
+          <h2> Suits, Ties, Accessories & Shoes </h2>
+          <h5>"Tailored to Custom Fit You"</h5>
         </div>
       </div>
     </>

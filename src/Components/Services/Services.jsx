@@ -8,7 +8,7 @@ const Services = () => {
         <h1 class="text-center">CUSTOM TAILOR SERVICE</h1>
         <div class="box-bottomfeed">
           <div class="box-content">
-            ZEUS® Suit Customs is a custom tailoring service designed to fit
+            ZEUS<small>&trade;</small> Suit Customs is a custom tailoring service designed to fit
             your desired look and feel. Get funeral casket fresh with our custom
             tailored shop to match your unique style. Let your soul glow and
             drip like your father showed you. Our services are at the top of the
