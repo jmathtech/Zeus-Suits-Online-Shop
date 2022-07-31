@@ -5,7 +5,6 @@
   background-attachment: fixed;
   display: flex;
   height: 35rem !important;
-  
 }
 
 .midtier {
@@ -34,10 +33,26 @@
   
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 240px) and (max-width: 1024px) {
+  .box-header {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    background-color: var(--white);
+    background-attachment: fixed;
+    display: flex;
+    height: 65rem !important;
+    
+  }
   .midtier {
     display: flex;
-
+    height: 140em !important;
+  
   }
+
+  .text-center {
+    display: flex;
+  
+  }
+  
 
 }

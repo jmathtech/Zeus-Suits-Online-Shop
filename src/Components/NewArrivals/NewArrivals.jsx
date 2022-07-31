@@ -10,7 +10,7 @@ const NewArrivals = () => {
           <div class="container">
             <div class="row">
               <div class="col s12 m4">
-                <div class="card">
+                <div class="card large">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img
                       class="activator"
@@ -20,18 +20,75 @@ const NewArrivals = () => {
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
-                      Card Title<i class="material-icons right">more_vert</i>
+                      Suit 01<i class="material-icons right">more_vert</i>
                     </span>
-                    <p>This is a link</p>
+                    <p>Price: $6799.99</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">
-                      Card Title<i class="material-icons right">close</i>
+                      Suit 01<i class="material-icons right">close</i>
                     </span>
                     <p>
                       Here is some more information about this product that is
                       only revealed once clicked on.
                     </p>
+                    <p>Price: $6799.99</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="card large">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img
+                      class="activator"
+                      src="../../img/suits/001/suits_002.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">
+                      Suit 02<i class="material-icons right">more_vert</i>
+                    </span>
+                    <p>Price: $8999.99</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">
+                      Suit 02<i class="material-icons right">close</i>
+                    </span>
+                    <p>
+                      Here is some more information about this product that is
+                      only revealed once clicked on.
+                    </p>
+                    <p>Price: $8999.99</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="card large">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img
+                      class="activator"
+                      src="../../img/suits/001/suits_003.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">
+                      Suit 03<i class="material-icons right">more_vert</i>
+                    </span>
+                    <p>Price: $10699.99</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">
+                      Suit 03<i class="material-icons right">close</i>
+                    </span>
+                    <p>
+                      Here is some more information about this product that is
+                      only revealed once clicked on.
+                    </p>
+                    <p>Price: $10699.99</p>
                   </div>
                 </div>
               </div>
