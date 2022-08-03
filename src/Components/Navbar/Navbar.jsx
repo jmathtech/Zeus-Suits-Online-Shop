@@ -1,7 +1,7 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { Sling as Hamburger } from "hamburger-react";
-import "./Navbar.css"
+import "./Navbar.css";
 
 function Navbar() {
     return (
