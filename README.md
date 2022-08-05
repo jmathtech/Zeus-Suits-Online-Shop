@@ -75,5 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## License
 
-MIT: <https://rem.mit-license.org>
+[MIT:](https://rem.mit-license.org/)
 
