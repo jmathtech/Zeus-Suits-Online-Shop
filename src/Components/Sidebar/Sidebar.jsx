@@ -1,56 +1,59 @@
 import React from "react";
-import {
-  CDBSidebar,
-  CDBSidebarContent,
-  CDBSidebarHeader,
-  CDBSidebarFooter,
-  CDBSidebarMenu,
-  CDBSidebarMenuItem,
-} from "cdbreact";
-import { NavLink } from "react-router-dom";
+import Icon, {
+  EllipsisOutlined,
+  GlobalOutlined,
+  HomeOutlined,
+  MessageOutlined,
+  NotificationOutlined,
+  PlaySquareOutlined,
+  ReadOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
+import "./Sidebar.css";
 
-const Sidebar = () => {
+export default function Sidebar() {
+  function SidebarOption({ text, name }) {
+    return (
+      <div className="sidebar-option">
+        <Icon className="sidebar-icon" component={name} size="medium" />
+        <h2>{text}</h2>
+      </div>
+    );
+  }
+
   return (
-    <div
-      style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
-    >
-      <CDBSidebar textColor="#fff" backgroundColor="#333">
-        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-          <a
-            href="/"
-            className="text-decoration-none"
-            style={{ color: "inherit" }}
-          >
-            Sidebar
-          </a>
-        </CDBSidebarHeader>
-
-        <CDBSidebarContent>
-            <CDBSidebarMenu>
-                <NavLink exact to='/' activeClassName='activeClicked'>
-                    <CDBSidebarMenuItem icon='columns'>Dashboard</CDBSidebarMenuItem>
-                </NavLink>
-                <NavLink exact to='/tables' activeClassName='activeClicked'>
-                    <CDBSidebarMenuItem icon='table'>Tables</CDBSidebarMenuItem>
-                </NavLink>
-                <NavLink exact to='/profile' activeClassName='activeClicked'>
-                    <CDBSidebarMenuItem icon='user'>Profile page</CDBSidebarMenuItem>
-                </NavLink>
-                <NavLink exact to='/analytics' activeClassName='activeClicked'>
-                    <CDBSidebarMenuItem icon='chart-line'>Analytics</CDBSidebarMenuItem>
-                </NavLink>
-            </CDBSidebarMenu>
-        </CDBSidebarContent>
-
-        <CDBSidebarFooter style={{ textAlign: "center" }}>
-          <div className="sidebar-btn-wrapper" style={{ padding: "20px 5px" }}>
-            Sidebar Footer
-          </div>
-        </CDBSidebarFooter>
-
-      </CDBSidebar>
+    <div className="sidebar">
+      <SidebarOption text="Home" name={HomeOutlined} />
+      <SidebarOption text="Profile" name={UserOutlined} />
+      <SidebarOption text="Messages" name={MessageOutlined} />
+      <SidebarOption text="Notify" name={NotificationOutlined} />
+      <SidebarOption text="News" name={ReadOutlined} />
+      <SidebarOption text="Videos" name={PlaySquareOutlined} />
+      <SidebarOption text="Explore" name={GlobalOutlined} />
+      <SidebarOption text="More" name={EllipsisOutlined} />
     </div>
   );
-};
+}
 
-export default Sidebar;
+export function MiniSidebar() {
+  function SidebarOption({ text, name}) {
+    return (
+      <div className="sidebar-option">
+        <Icon className="sidebar-icon" component={name} size="medium" />
+        <h3 style={{ paddingTop: "23px" }}>{text}</h3>
+      </div>
+    );
+  }
+  return (
+    <div className="mini-sidebar">
+      <SidebarOption text="Home" name={HomeOutlined} />
+      <SidebarOption text="Profile" name={UserOutlined} />
+      <SidebarOption text="Messages" name={MessageOutlined} />
+      <SidebarOption text="Notify" name={NotificationOutlined} />
+      <SidebarOption text="News" name={ReadOutlined} />
+      <SidebarOption text="Videos" name={PlaySquareOutlined} />
+      <SidebarOption text="Explore" name={GlobalOutlined} />
+      <SidebarOption text="More" name={EllipsisOutlined} />
+    </div>
+  );
+}

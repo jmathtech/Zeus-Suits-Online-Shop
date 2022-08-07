@@ -3,7 +3,8 @@ import { HashLink as Link } from "react-router-hash-link";
 import { Sling as Hamburger } from "hamburger-react";
 import "./Navbar.css";
 
-function Navbar() {
+// eslint-disable-next-line react-hooks/rules-of-hooks
+function Navbar () {
     return (
       <>
         <nav>
@@ -57,5 +58,6 @@ function Navbar() {
         </nav>
       </>
     );
-}
+  }
+
 export default Navbar;
