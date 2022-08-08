@@ -10,7 +10,8 @@
   background-size: cover;
   background-attachment: fixed;
   height: auto !important;
-  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .text-center {

@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div class="bottomfeed">
       <div class="container">
-        <h1 class="text-center">CUSTOM-TAILOR SERVICE</h1>
+        <h1 class="text-center">CUSTOM TAILOR SERVICE</h1>
         <div class="box-bottomfeed">
           <div class="box-content">
             ZEUS<small>&trade;</small> Suit Customs is a custom-tailoring
@@ -19,6 +19,6 @@ const Services = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Services;

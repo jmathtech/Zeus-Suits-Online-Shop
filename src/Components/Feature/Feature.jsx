@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 import Cards from "../Cards/Cards";
 
 const Feature = () => {
   return (
     <div class="container">
-    <h1 class="title-feature">FEATURED STORE ITEMS</h1>
-    <Cards />
-  </div>
-  )
-}
+      <h1 class="title-feature">FEATURED STORE ITEMS</h1>
+      <Cards />
+    </div>
+  );
+};
 
-export default Feature
+export default Feature;

@@ -1,4 +1,4 @@
-.title-feature {
+h1.title-feature {
     color: var(--black);
     position: relative;
     top: 10%;
