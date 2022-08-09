@@ -3,6 +3,6 @@ h1.title-feature {
     position: relative;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
   }
