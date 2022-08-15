@@ -9,6 +9,6 @@ const Feature = () => {
       <Cards />
     </div>
   );
-};
+}
 
 export default Feature;
