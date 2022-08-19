@@ -9,10 +9,10 @@ function Navbar() {
       <nav>
         <div className="nav-wrapper blue-grey darken-1">
           <Link to="#" data-target="sidebar" class="sidenav-trigger">
-            <Hamburger direction="right" size={18} easing="ease-in" />
+            <Hamburger direction="right" size={20} easing="ease-in" />
           </Link>
 
-          <Link to="#!" class="brand-logo white-text text-darken-4">
+          <Link to="#" class="brand-logo white-text text-darken-4">
             <i class="large material-icons">flash_on</i> ZEUS
             <small>&trade;</small>
           </Link>
