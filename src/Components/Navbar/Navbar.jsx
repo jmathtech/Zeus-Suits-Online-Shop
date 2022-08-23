@@ -1,6 +1,7 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import { Sling as Hamburger } from "hamburger-react";
+import { Twirl as Hamburger } from "hamburger-react";
+import { slide as Menu } from "react-burger-menu";
 import "./Navbar.css";
 
 function Navbar() {
@@ -37,23 +38,28 @@ function Navbar() {
         </div>
       </nav>
 
-      <ul class="sidenav" id="sidebar">
-        <li>
-          <Link to="/"> Home </Link>
-        </li>
-        <li>
-          <Link to="/"> New Arrivals </Link>
-        </li>
-        <li>
-          <Link to="/"> Pants </Link>
-        </li>
-        <li>
-          <Link to="/"> Suits & Blazers </Link>
-        </li>
-        <li>
-          <Link to="/"> Accessories </Link>
-        </li>
-      </ul>
+      <Menu>
+        <Link id="home" class="menu-item" href="/">
+          {" "}
+          Home
+        </Link>
+        <Link id="newarrivals" class="menu-item" href="/">
+          {" "}
+          NewArrivals
+        </Link>
+        <Link id="pants" class="menu-item" href="/">
+          {" "}
+          Pants
+        </Link>
+        <Link id="suitsblazers" class="menu-item" href="/">
+          {" "}
+          Suits & Blazers
+        </Link>
+        <Link id="accessories" class="menu-item" href="/">
+          {" "}
+          Accessories
+        </Link>
+      </Menu>
     </>
   );
 }
