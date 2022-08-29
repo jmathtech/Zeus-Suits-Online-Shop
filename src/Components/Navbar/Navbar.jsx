@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { Twirl as Hamburger } from "hamburger-react";
@@ -39,19 +40,19 @@ function Navbar() {
 
       <ul class="sidenav" id="sidebar">
         <li>
-          <Link to="/"> Home </Link>
+          <a href="#"> Home </a>
         </li>
         <li>
-          <Link to="/"> New Arrivals </Link>
+        <a href="#"> New Arrivals </a>
         </li>
         <li>
-          <Link to="/"> Pants </Link>
+        <a href="#"> Pants </a>
         </li>
         <li>
-          <Link to="/"> Suits & Blazers </Link>
+        <a href="#"> Suits & Blazers </a>
         </li>
         <li>
-          <Link to="/"> Accessories </Link>
+        <a href="#"> Accessories </a>
         </li>
       </ul>
     </>
