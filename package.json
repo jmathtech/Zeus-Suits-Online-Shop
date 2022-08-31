@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jmathtech.github.io/zeus-suits-shop",
   "name": "zeus-suits-shop",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "babel-preset-react-app": "3",
     "cdbreact": "^1.5.3",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "hamburger-react": "^2.5.0",
     "jquery": "^3.6.1",
     "material-ui": "^0.20.2",
@@ -31,6 +33,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "pre-deploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
