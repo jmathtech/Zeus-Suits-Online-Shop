@@ -1,16 +1,28 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import { React, useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { Twirl as Hamburger } from "hamburger-react";
 import "./Navbar.css";
 
 function Navbar() {
+  const [isOpen, setOpen] = useState(false);
+  
   return (
     <>
       <nav>
         <div className="nav-wrapper blue-grey darken-1">
           <Link to="#" data-target="sidebar" class="sidenav-trigger">
-            <Hamburger direction="right" size={20} easing="ease-in" />
+            <Hamburger 
+            OnToggled={toggled => {
+              if (toggled) {
+                // open the menu
+                toggled = true;
+              } else {
+                //close the menu
+                toggled = false;
+              }
+            }}
+            toggled={isOpen} toggle={setOpen} direction="right" size={20} easing="ease-in" />
           </Link>
 
           <Link to="#" class="brand-logo white-text text-darken-4">
