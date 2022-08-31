@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zeus-suits-shop/static/css/main.964fe303.css",
+    "main.js": "/zeus-suits-shop/static/js/main.9e899ff5.js",
+    "static/js/787.fd432477.chunk.js": "/zeus-suits-shop/static/js/787.fd432477.chunk.js",
+    "static/media/bottombanner.jpg": "/zeus-suits-shop/static/media/bottombanner.77c6c929ba621eaa91d1.jpg",
+    "static/media/topbanner.jpg": "/zeus-suits-shop/static/media/topbanner.7cc241401d1cfd10030f.jpg",
+    "static/media/midbanner.jpg": "/zeus-suits-shop/static/media/midbanner.d2e44da62f2a1a871894.jpg",
+    "static/media/suits_001.jpg": "/zeus-suits-shop/static/media/suits_001.6e9d65d709d3641ec8a5.jpg",
+    "static/media/product_03.jpg": "/zeus-suits-shop/static/media/product_03.057384768178b2012b99.jpg",
+    "static/media/product_01.jpg": "/zeus-suits-shop/static/media/product_01.480e54cb9b80f401ce77.jpg",
+    "static/media/product_02.jpg": "/zeus-suits-shop/static/media/product_02.4fc99769d579226fa610.jpg",
+    "index.html": "/zeus-suits-shop/index.html",
+    "main.964fe303.css.map": "/zeus-suits-shop/static/css/main.964fe303.css.map",
+    "main.9e899ff5.js.map": "/zeus-suits-shop/static/js/main.9e899ff5.js.map",
+    "787.fd432477.chunk.js.map": "/zeus-suits-shop/static/js/787.fd432477.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fe303.css",
+    "static/js/main.9e899ff5.js"
+  ]
+}
